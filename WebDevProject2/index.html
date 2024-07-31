@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <ul class="navbar">
+        <div class="nav-logo border">
+            <div class="logo"></div>
+        </div>
+
+        <div class="nav-address border">
+            <p class="add-first">Deliver to</p>
+            <div class="add-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="add-second">India</p>
+            </div>
+        </div>
+        <div class="nav-search">
+            <select class="search-select">
+                <option>All</option>
+                <input placeholder="Search food" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </select>
+        </div>
+        <div class="nav-login">
+            <a href="http://127.0.0.1:5500/index.html" class="login border">login</a>
+            
+
+        </div>
+        <div class="signup">
+            <a href="https://themewagon.com/my-account/" class="SignUp border">Sign Up</a>
+        </div>
+        <div class="nav-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+    </ul>
+   </header>
+   <div class="tagline">
+    <p>Feast Awaits</p>
+</div>
+<div class="food-variety">
+
+</div>
+<div class="food-section">
+    <div class="box1 box">
+        <div class="box1-image" style="background-image: url('north indian dish.jpeg');"></div>
+        <p>North Indian Food</p>
+    </div>
+    <div class="box2 box">
+        <div class="box1-image" style="background-image: url('south indian.jpg');"></div>
+        <p>South Indian Food</p>
+    </div>
+    <div class="box3 box">
+        <div class="box1-image" style="background-image: url('east indian.jpg');"></div>
+        <p>East Indian Food</p>
+    </div>
+    <div class="box4 box">
+        <div class="box1-image" style="background-image: url('west indian.webp');"></div>
+        <p>West Indian Food</p>
+    </div>
+    <div class="box5 box">
+        <div class="box1-image" style="background-image: url('Chinese food.webp');"></div>
+        <p>Chinese Food</p>
+    </div>
+    <div class="box6 box">
+        <div class="box1-image" style="background-image: url('Snacks.jpg');"></div>
+        <p>Snacks</p>
+    </div>
+    <div class="box7 box">
+        <div class="box1-image" style="background-image: url('desserts.webp');"></div>
+        <p>Desserts</p>
+    </div>
+</div>
+<div class="section-1"></div>
+<div class="first-para">
+    <p>Savor the Flavors, Satisfy Your Soul</p>
+</div>
+
+<div class="more-info">
+    <div class="details">
+        
+        <div class="main"></div>
+        <div class="second-para">
+            <p>Welcome to flavours of India </p>
+            
+        </div>
+        <div class="third-para">
+            <p>4.5</p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <a href="https://www.tripadvisor.in/Restaurant_Review-g667805-d7688397-Reviews-Waterside-Kanpur_Kanpur_Nagar_District_Uttar_Pradesh.html">5744 Google reviews:</a>
+        </div>
+    </div>
+    <div class="Timings">
+            <p class="Time-heading">Hours of Operation</p>
+            <br>
+            <br>
+            <p>Monday - Thursday: 11:00 AM - 10:00 PM
+                
+                
+            </p>
+            <br>
+            <p>Friday - Saturday: 11:00 AM - 11:00 PM
+
+            </p>
+            <br>
+            <p>Sunday: 10:00 AM - 9:00 PM</p>
+
+     </div> 
+    
+</div>
+<div class="section-2">
+
+</div>
+<div class="heading-1">
+    <p>From Our Kitchen to Your Heart</p>
+</div>
+<div class="text-bar">
+    <div class="Filter">
+        <p>filter</p>
+        <i class="fa-solid fa-filter"></i>
+    </div>
+    <div class="custom-select-wrapper">
+        <select id="custom-select" class="custom-select">
+          <option value="" disabled selected>Sort By</option>
+          <option value="option1">Relevance(Default)</option>
+          <option value="option4">DeliveryTime</option>
+          <option value="option2">Rating</option>
+          <option value="option3">Cost:LowtoHigh</option>
+          <option value="option4">Cost:HightoLow</option>
+          
+        </select>
+    </div>
+    <div class="Deliver">
+        <p>Fast Delivery</p>
+    </div>
+    <div class="rating">
+        <p>Ratings 4.0+</p>
+    </div>
+    <div class="food-type">
+        <p>Veg</p>
+    </div>
+    <div class="nonveg">
+        <p>Non-Veg</p>
+    </div>
+    <div class="Filter">
+        <p>Offers</p>
+    </div>
+    <div class="Price">
+        <p>Rs.300 - Rs.600</p>
+    </div>
+    <button class="Price">
+        <p>Less than Rs.300</p>
+    </button>
+
+</div>
+<div class="Exciting-Perks">
+    <div class="type1 type" style="background-image: url('type1.png');" ></div>
+    <div class="type2 type" style="background-image: url('type2.png');" ></div>
+    <div class="type3 type" style="background-image: url('type3.png');" ></div>
+    <div class="type4 type" style="background-image: url('type4.png');" ></div>
+
+</div>
+<div class="Exciting-Perks">
+    <div class="type1 type" style="background-image: url('type5.png');" ></div>
+    <div class="type2 type" style="background-image: url('type6.png');" ></div>
+    <div class="type3 type" style="background-image: url('type7.png');" ></div>
+    <div class="type4 type" style="background-image: url('type8.png');" ></div>
+
+</div>
+<div class="Exciting-Perks">
+    <div class="type1 type" style="background-image: url('type9.png');" ></div>
+    <div class="type2 type" style="background-image: url('type10.png');" ></div>
+    <div class="type3 type" style="background-image: url('type11.png');" ></div>
+    <div class="type4 type" style="background-image: url('type12.png');" ></div>
+
+</div>
+<div class="Exciting-Perks">
+    <div class="type1 type" style="background-image: url('type13.png');" ></div>
+    <div class="type2 type" style="background-image: url('type14.png');" ></div>
+    <div class="type3 type" style="background-image: url('type15.png');" ></div>
+    
+
+</div>
+<div class="Exciting-Perks">
+    <div class="type1 type" style="background-image: url('type16.png');" ></div>
+    <div class="type2 type" style="background-image: url('type17.png');" ></div>
+    
+    
+
+</div>
+<footer>
+    <div class="Panel1">
+        <p>Back to Top</p>
+    </div>
+    <div class="panel2">
+        
+        <ul>
+            <div class="foot-logo">
+                <div class="foot-logo1" style="background-image: url('Logo.jpeg');" ></div>
+                <p>Flavours Of India</p>
+            </div>
+            
+
+        </ul>
+        <ul>
+            <p>Company</p>
+            <a>About Us</a>
+            <a>Careers</a>
+            <a>Team</a>
+        </ul>
+        <ul>
+            <p>Contact Us</p>
+            <a>help & Support</a>
+            <a>Partner with us</a>
+            <a>Ride with us</a>
+        </ul>
+        <ul>
+            <p>Available in:</p>
+            <a>Bangalore</a>
+            <a>Gurgaon</a>
+            <a>Hyderabad</a>
+            <a>Delhi</a>
+            <a>Mumbai</a>
+            <a>Pune</a>
+        </ul>
+        <ul>
+            <p>Learn More</p>
+            <a>Privacy</a>
+            <a>Security</a>
+            <a>Terms</a>
+            <a>Sitemap</a>
+        </ul>
+    </div>
+    <div class="panel-3">
+        <p>Social Links</p>
+        <div class="social-media">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-twitter"></i>
+
+        </div>
+        
+        
+    </div>
+</footer>
+  
+</body>
+</html>
